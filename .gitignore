@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package manager caches
+.pnpm-store/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# OS / editor noise
+.DS_Store
+
+# Local deployment / coverage artifacts
+.vercel/
+coverage/
+
+# AI Studio export reference project
+ui/
